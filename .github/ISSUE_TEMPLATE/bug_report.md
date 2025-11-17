@@ -1,5 +1,5 @@
 ---
-name: '🐞 Bug Report'
+name: 'Bug Report'
 about: 'Report a bug or unexpected behavior.'
 title: 'Bug: [Brief, clear description of the bug]'
 labels: 'bug'
