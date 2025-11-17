@@ -1,0 +1,14 @@
+ # .github/ISSUE_TEMPLATE/config.yml
+
+# This setting will be 'true' to disable the blank issue creation.
+blank_issues_enabled: false
+
+# (Optional) You can also add links to external sites, like your project's documentation or a Discord server.
+# This helps guide users if their reason for creating an issue isn't covered by a template.
+contact_links:
+  - name: Project Documentation
+    url: https://[YOUR_PROJECT_DOCUMENTATION_URL] # Replace with your actual URL
+    about: Please check our documentation for answers first.
+  - name: Ask a Question
+    url: https://github.com/[YOUR_USERNAME]/[YOUR_REPO]/discussions/new
+    about: For questions that aren't a bug report or feature request, please use our discussion board.
