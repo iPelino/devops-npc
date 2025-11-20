@@ -1,4 +1,3 @@
-
 from django.db import models
 
 
@@ -11,7 +10,7 @@ class Post(models.Model):
         return self.title
 
     class Meta:
-        db_table = 'db_name'
+        db_table = "db_name"
         managed = True
-        verbose_name = 'Post'
-        verbose_name_plural = 'Posts'
+        verbose_name = "Post"
+        verbose_name_plural = "Posts"
