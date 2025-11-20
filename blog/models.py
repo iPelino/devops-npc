@@ -1,2 +1,17 @@
 
+from django.db import models
+
+
 # Create your models here.
+class Post(models.Model):
+    title = models.CharField(max_length=255)
+    body = models.TextField()
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        db_table = 'db_name'
+        managed = True
+        verbose_name = 'Post'
+        verbose_name_plural = 'Posts'
