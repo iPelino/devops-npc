@@ -8,7 +8,7 @@ class Post(models.Model):
     body = models.TextField()
 
     def __str__(self):
-        pass
+        return self.title
 
     class Meta:
         db_table = 'db_name'
